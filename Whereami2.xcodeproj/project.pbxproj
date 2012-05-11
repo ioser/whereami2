@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ABCFC06155CB4700093CCAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC05155CB4700093CCAA /* UIKit.framework */; };
+		9ABCFC08155CB4700093CCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC07155CB4700093CCAA /* Foundation.framework */; };
+		9ABCFC0A155CB4700093CCAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC09155CB4700093CCAA /* CoreGraphics.framework */; };
+		9ABCFC10155CB4700093CCAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABCFC0E155CB4700093CCAA /* InfoPlist.strings */; };
+		9ABCFC12155CB4700093CCAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFC11155CB4700093CCAA /* main.m */; };
+		9ABCFC16155CB4700093CCAA /* Whereami2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFC15155CB4700093CCAA /* Whereami2AppDelegate.m */; };
+		9ABCFC19155CB4700093CCAA /* Whereami2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFC18155CB4700093CCAA /* Whereami2ViewController.m */; };
+		9ABCFC1C155CB4700093CCAA /* Whereami2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABCFC1A155CB4700093CCAA /* Whereami2ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9ABCFC01155CB4700093CCAA /* Whereami2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whereami2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABCFC05155CB4700093CCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9ABCFC07155CB4700093CCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9ABCFC09155CB4700093CCAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9ABCFC0D155CB4700093CCAA /* Whereami2-Info.plist */ = {isa = PBXFileReference; path = "Whereami2-Info.plist"; sourceTree = "<group>"; };
+		9ABCFC0F155CB4700093CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ABCFC11155CB4700093CCAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ABCFC13155CB4700093CCAA /* Whereami2-Prefix.pch */ = {isa = PBXFileReference; path = "Whereami2-Prefix.pch"; sourceTree = "<group>"; };
+		9ABCFC14155CB4700093CCAA /* Whereami2AppDelegate.h */ = {isa = PBXFileReference; path = Whereami2AppDelegate.h; sourceTree = "<group>"; };
+		9ABCFC15155CB4700093CCAA /* Whereami2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whereami2AppDelegate.m; sourceTree = "<group>"; };
+		9ABCFC17155CB4700093CCAA /* Whereami2ViewController.h */ = {isa = PBXFileReference; path = Whereami2ViewController.h; sourceTree = "<group>"; };
+		9ABCFC18155CB4700093CCAA /* Whereami2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whereami2ViewController.m; sourceTree = "<group>"; };
+		9ABCFC1B155CB4700093CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Whereami2ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ABCFBFE155CB4700093CCAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABCFC06155CB4700093CCAA /* UIKit.framework in Frameworks */,
+				9ABCFC08155CB4700093CCAA /* Foundation.framework in Frameworks */,
+				9ABCFC0A155CB4700093CCAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ABCFBF6155CB4700093CCAA = {
+			isa = PBXGroup;
+			children = (
+				9ABCFC0B155CB4700093CCAA /* Whereami2 */,
+				9ABCFC04155CB4700093CCAA /* Frameworks */,
+				9ABCFC02155CB4700093CCAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABCFC02155CB4700093CCAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCFC01155CB4700093CCAA /* Whereami2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ABCFC04155CB4700093CCAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCFC05155CB4700093CCAA /* UIKit.framework */,
+				9ABCFC07155CB4700093CCAA /* Foundation.framework */,
+				9ABCFC09155CB4700093CCAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9ABCFC0B155CB4700093CCAA /* Whereami2 */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCFC14155CB4700093CCAA /* Whereami2AppDelegate.h */,
+				9ABCFC15155CB4700093CCAA /* Whereami2AppDelegate.m */,
+				9ABCFC17155CB4700093CCAA /* Whereami2ViewController.h */,
+				9ABCFC18155CB4700093CCAA /* Whereami2ViewController.m */,
+				9ABCFC1A155CB4700093CCAA /* Whereami2ViewController.xib */,
+				9ABCFC0C155CB4700093CCAA /* Supporting Files */,
+			);
+			path = Whereami2;
+			sourceTree = "<group>";
+		};
+		9ABCFC0C155CB4700093CCAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABCFC0D155CB4700093CCAA /* Whereami2-Info.plist */,
+				9ABCFC0E155CB4700093CCAA /* InfoPlist.strings */,
+				9ABCFC11155CB4700093CCAA /* main.m */,
+				9ABCFC13155CB4700093CCAA /* Whereami2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ABCFC00155CB4700093CCAA /* Whereami2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABCFC1F155CB4700093CCAA /* Build configuration list for PBXNativeTarget "Whereami2" */;
+			buildPhases = (
+				9ABCFBFD155CB4700093CCAA /* Sources */,
+				9ABCFBFE155CB4700093CCAA /* Frameworks */,
+				9ABCFBFF155CB4700093CCAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whereami2;
+			productName = Whereami2;
+			productReference = 9ABCFC01155CB4700093CCAA /* Whereami2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ABCFBF8155CB4700093CCAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Whereami2;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9ABCFBFB155CB4700093CCAA /* Build configuration list for PBXProject "Whereami2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9ABCFBF6155CB4700093CCAA;
+			productRefGroup = 9ABCFC02155CB4700093CCAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ABCFC00155CB4700093CCAA /* Whereami2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ABCFBFF155CB4700093CCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABCFC10155CB4700093CCAA /* InfoPlist.strings in Resources */,
+				9ABCFC1C155CB4700093CCAA /* Whereami2ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ABCFBFD155CB4700093CCAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABCFC12155CB4700093CCAA /* main.m in Sources */,
+				9ABCFC16155CB4700093CCAA /* Whereami2AppDelegate.m in Sources */,
+				9ABCFC19155CB4700093CCAA /* Whereami2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ABCFC0E155CB4700093CCAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABCFC0F155CB4700093CCAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9ABCFC1A155CB4700093CCAA /* Whereami2ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABCFC1B155CB4700093CCAA /* en */,
+			);
+			name = Whereami2ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ABCFC1D155CB4700093CCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ABCFC1E155CB4700093CCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ABCFC20155CB4700093CCAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whereami2/Whereami2-Prefix.pch";
+				INFOPLIST_FILE = "Whereami2/Whereami2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9ABCFC21155CB4700093CCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whereami2/Whereami2-Prefix.pch";
+				INFOPLIST_FILE = "Whereami2/Whereami2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ABCFBFB155CB4700093CCAA /* Build configuration list for PBXProject "Whereami2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABCFC1D155CB4700093CCAA /* Debug */,
+				9ABCFC1E155CB4700093CCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABCFC1F155CB4700093CCAA /* Build configuration list for PBXNativeTarget "Whereami2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABCFC20155CB4700093CCAA /* Debug */,
+				9ABCFC21155CB4700093CCAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ABCFBF8155CB4700093CCAA /* Project object */;
+}
