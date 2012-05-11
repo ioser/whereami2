@@ -15,6 +15,7 @@
 		9ABCFC16155CB4700093CCAA /* Whereami2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFC15155CB4700093CCAA /* Whereami2AppDelegate.m */; };
 		9ABCFC19155CB4700093CCAA /* Whereami2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABCFC18155CB4700093CCAA /* Whereami2ViewController.m */; };
 		9ABCFC1C155CB4700093CCAA /* Whereami2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABCFC1A155CB4700093CCAA /* Whereami2ViewController.xib */; };
+		9ABCFC23155CB6940093CCAA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC22155CB6940093CCAA /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		9ABCFC05155CB4700093CCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9ABCFC07155CB4700093CCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9ABCFC09155CB4700093CCAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9ABCFC0D155CB4700093CCAA /* Whereami2-Info.plist */ = {isa = PBXFileReference; path = "Whereami2-Info.plist"; sourceTree = "<group>"; };
+		9ABCFC0D155CB4700093CCAA /* Whereami2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whereami2-Info.plist"; sourceTree = "<group>"; };
 		9ABCFC0F155CB4700093CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ABCFC11155CB4700093CCAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9ABCFC13155CB4700093CCAA /* Whereami2-Prefix.pch */ = {isa = PBXFileReference; path = "Whereami2-Prefix.pch"; sourceTree = "<group>"; };
-		9ABCFC14155CB4700093CCAA /* Whereami2AppDelegate.h */ = {isa = PBXFileReference; path = Whereami2AppDelegate.h; sourceTree = "<group>"; };
+		9ABCFC13155CB4700093CCAA /* Whereami2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whereami2-Prefix.pch"; sourceTree = "<group>"; };
+		9ABCFC14155CB4700093CCAA /* Whereami2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whereami2AppDelegate.h; sourceTree = "<group>"; };
 		9ABCFC15155CB4700093CCAA /* Whereami2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whereami2AppDelegate.m; sourceTree = "<group>"; };
-		9ABCFC17155CB4700093CCAA /* Whereami2ViewController.h */ = {isa = PBXFileReference; path = Whereami2ViewController.h; sourceTree = "<group>"; };
+		9ABCFC17155CB4700093CCAA /* Whereami2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whereami2ViewController.h; sourceTree = "<group>"; };
 		9ABCFC18155CB4700093CCAA /* Whereami2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whereami2ViewController.m; sourceTree = "<group>"; };
 		9ABCFC1B155CB4700093CCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Whereami2ViewController.xib; sourceTree = "<group>"; };
+		9ABCFC22155CB6940093CCAA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			files = (
 				9ABCFC06155CB4700093CCAA /* UIKit.framework in Frameworks */,
 				9ABCFC08155CB4700093CCAA /* Foundation.framework in Frameworks */,
+				9ABCFC23155CB6940093CCAA /* CoreLocation.framework in Frameworks */,
 				9ABCFC0A155CB4700093CCAA /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +70,7 @@
 		9ABCFC04155CB4700093CCAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9ABCFC22155CB6940093CCAA /* CoreLocation.framework */,
 				9ABCFC05155CB4700093CCAA /* UIKit.framework */,
 				9ABCFC07155CB4700093CCAA /* Foundation.framework */,
 				9ABCFC09155CB4700093CCAA /* CoreGraphics.framework */,
