@@ -14,6 +14,13 @@
 
 @implementation Whereami2ViewController
 
+- (void)doSomethingWeird
+{
+    NSLog(@"Run over a pink mouse.");
+    NSLog(@"Eat green bean jelly.");
+    NSLog(@"Make a popcorn pie.");
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
 	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -21,6 +28,9 @@
 	if (self) {
 		// Create a LocationManager instance
 		locationManager = [[CLLocationManager alloc] init];
+        // Do something weird
+        [self doSomethingWeird];
+        
 		[locationManager setDelegate:self];
 		[locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
 		[locationManager startUpdatingLocation];
