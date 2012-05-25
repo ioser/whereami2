@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A522BDD156F11E100FBA8EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A522BDC156F11E100FBA8EB /* CoreLocation.framework */; };
 		9A522BDF156F191500FBA8EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A522BDE156F191500FBA8EB /* MapKit.framework */; };
+		9AAB6DB1156F378E007B55A4 /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB6DB0156F378E007B55A4 /* BNRMapPoint.m */; };
 		9ABCFC06155CB4700093CCAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC05155CB4700093CCAA /* UIKit.framework */; };
 		9ABCFC08155CB4700093CCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC07155CB4700093CCAA /* Foundation.framework */; };
 		9ABCFC0A155CB4700093CCAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABCFC09155CB4700093CCAA /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* Begin PBXFileReference section */
 		9A522BDC156F11E100FBA8EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9A522BDE156F191500FBA8EB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9AAB6DAF156F378E007B55A4 /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		9AAB6DB0156F378E007B55A4 /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
 		9ABCFC01155CB4700093CCAA /* Whereami2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whereami2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABCFC05155CB4700093CCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9ABCFC07155CB4700093CCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,8 @@
 				9ABCFC18155CB4700093CCAA /* Whereami2ViewController.m */,
 				9ABCFC1A155CB4700093CCAA /* Whereami2ViewController.xib */,
 				9ABCFC0C155CB4700093CCAA /* Supporting Files */,
+				9AAB6DAF156F378E007B55A4 /* BNRMapPoint.h */,
+				9AAB6DB0156F378E007B55A4 /* BNRMapPoint.m */,
 			);
 			path = Whereami2;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				9ABCFC12155CB4700093CCAA /* main.m in Sources */,
 				9ABCFC16155CB4700093CCAA /* Whereami2AppDelegate.m in Sources */,
 				9ABCFC19155CB4700093CCAA /* Whereami2ViewController.m in Sources */,
+				9AAB6DB1156F378E007B55A4 /* BNRMapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
