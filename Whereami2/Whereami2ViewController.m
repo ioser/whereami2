@@ -33,7 +33,7 @@
         
 		[locationManager setDelegate:self];
 		[locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
-		[locationManager startUpdatingLocation];
+		//[locationManager startUpdatingLocation];
 	}
 	
 	return self;
@@ -64,6 +64,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
+	[worldView setShowsUserLocation:YES];
 }
 
 - (void)viewDidUnload
@@ -75,6 +77,17 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
 	return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+//
+// MKMapViewDelegate methods
+//
+
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
+{
+	CLLocationCoordinate2D location = [userLocation coordinate];
+	MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(location, 250, 250);
+	[worldView setRegion:region animated:YES];
 }
 
 @end

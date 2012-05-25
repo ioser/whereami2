@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 
-@interface Whereami2ViewController : UIViewController<CLLocationManagerDelegate>
+@interface Whereami2ViewController : UIViewController<CLLocationManagerDelegate, MKMapViewDelegate>
 {
 	CLLocationManager *locationManager;
 	IBOutlet MKMapView *worldView;
